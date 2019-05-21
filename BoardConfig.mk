@@ -1,3 +1,6 @@
+# Exports
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5

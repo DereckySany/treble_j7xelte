@@ -2,6 +2,7 @@
 /system_image         emmc	            /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
 /vendor	ext4	                          /dev/block/platform/13540000.dwmmc0/by-name/CACHE	   flags=display="Vendor";wipeingui;backup=1
 /vendor_image	        emmc	            /dev/block/platform/13540000.dwmmc0/by-name/CACHE
+/cache		            ext4	            /dev/block/platform/13540000.dwmmc0/by-name/CACHE
 /data		              ext4	            /dev/block/platform/13540000.dwmmc0/by-name/USERDATA flags=length=-20480,encryptable=footer
 /preload	            ext4	            /dev/block/platform/13540000.dwmmc0/by-name/HIDDEN	 flags=backup=1;wipeingui;display="Preload"
 /boot		              emmc	            /dev/block/platform/13540000.dwmmc0/by-name/BOOT	   flags=backup=1;display="Kernel"
